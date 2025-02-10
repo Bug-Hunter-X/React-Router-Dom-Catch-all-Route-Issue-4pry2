@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where a catch-all route (`/*`) conflicts with other routes, particularly nested ones. The problem arises because the catch-all route always matches, even if a more specific route exists.  The solution involves carefully ordering routes and using the `useLocation` hook to achieve the desired behavior.
